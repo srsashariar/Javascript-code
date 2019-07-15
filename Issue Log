@@ -1,0 +1,53 @@
+!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+<title>JS-Issues App</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class"container">
+	<h1> JS Issue Tracker </h1>
+<div class="jumbotron">
+	<h3>Add new isse:</h3>
+<form id="issueinputform">
+	<div class="form-group">
+		<label for ="issue desc input">Description</label>
+		<input type="text" class="form-control" id="issuedescinput" placeholder="describe the issue">
+	</div>
+	<div class="form-group">
+		<label for="issueseverityinput">SEVERITY</label>
+		<Select ID="IssueSeverityInput" class="form-control">
+			<option value="low">LOW</option>
+<option value="Medium">Medium</option>
+<option value="High">High</option>
+</Select>
+</div>
+<div class="form-group">
+	<label for="issue assigned to">ASSIGNED TO</label>
+	<Input type="text" class="form-control id="Issue assigned to input" placeholder="Enter Responsible">
+</Input></div>
+<button type="submit" class="btn btn-primary"> ADD </button>
+<FORM>
+</Select>
+</div>
+	<!--chance.com-->
+
+<script src="https://chancejs.com/chance.min.js"></script>
+
+
+	<!--js minified-->
+		<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+<!--bootstrap-->
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
